@@ -1,3 +1,8 @@
+# Notes
+
+This project uses useState, filter and map [YouTube Tutorial](https://youtu.be/x7niho285qs).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
