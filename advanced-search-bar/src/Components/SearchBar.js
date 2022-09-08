@@ -29,8 +29,8 @@ function SearchBar({ placeholder, data }) {
         <input type="text" placeholder={placeholder} value={wordEntered} onChange={handleFilter} />
         <div className='searchIcon'>
           { filteredData.length === 0 ? 
-            <i class="fa fa-xmark fa-xl" aria-hidden="true" id="clearBtn" onClick={clearInput}></i> :
-            <i class="fa fa-search fa-xl" aria-hidden="true"></i>
+            <i className="fa fa-xmark fa-xl" aria-hidden="true" id="clearBtn" onClick={clearInput}></i> :
+            <i className="fa fa-search fa-xl" aria-hidden="true"></i>
           }
         </div>
       </div>
